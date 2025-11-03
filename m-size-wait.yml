@@ -1,0 +1,8 @@
+---
+- name: M-size Playbook for ROI tests
+  gather_facts: false
+  hosts: localhost
+  tasks:
+    - name: Sleep 3 minutes
+      ansible.builtin.pause:
+        minutes: 3
